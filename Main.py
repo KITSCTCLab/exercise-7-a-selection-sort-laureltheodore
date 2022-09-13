@@ -2,6 +2,8 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
+  for index in range(size)
+  min=index
 
 # Do not change the following code
 input_data = input()
