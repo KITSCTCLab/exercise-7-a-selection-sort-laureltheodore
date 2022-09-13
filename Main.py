@@ -5,10 +5,10 @@ def selectionSort(array, size) -> List[int]:
   for index in range(size):
    min=index
   for j in range(index+1,size):
-    if arr[j]<arr[min]:
+    if array[j]<array[min]:
       min=j 
-      (arr[min],arr[index])=(arr[index],arr[min])
-      return arr
+      (array[min],array[index])=(array[index],array[min])
+      return array;
 
 # Do not change the following code
 input_data = input()
