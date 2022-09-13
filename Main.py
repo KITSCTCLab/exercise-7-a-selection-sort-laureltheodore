@@ -4,9 +4,9 @@ def selectionSort(array, size) -> List[int]:
     min = index
     #Selection and Insertion Sorting
   for j in range(index+1,size):
-     if array[j]<array[min]:
-        min = j
-     (array[min],array[index]) = (array[index],array[min])
+    if array[j]<array[min]:
+       min = j
+    (array[min],array[index]) = (array[index],array[min])
   return array
 #do not change the code
 input_data = input()
